@@ -42,6 +42,7 @@ function getList() {
             }
             del()
         })
+    window.location.href = 'https://anhtran25.github.io/Assignment_JS/BeautyMona/admin/Product_AD/listproduct.html';
 
 }
 getList();
