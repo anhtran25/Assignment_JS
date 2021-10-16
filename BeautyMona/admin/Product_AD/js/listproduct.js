@@ -41,9 +41,7 @@ function getList() {
                 }
             }
             del()
-           
         })
- 
 
 }
 getList();
