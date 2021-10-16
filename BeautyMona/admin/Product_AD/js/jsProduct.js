@@ -15,6 +15,7 @@ form_add.addEventListener('submit', function(e) {
     }
     axios.post('https://w0vd4.sse.codesandbox.io/posts', post)
         .then(response => alert('them thanh cong'))
-    window.location.href = 'https://anhtran25.github.io/Assignment_JS/BeautyMona/admin/Product_AD/listproduct.html';
+    
 
 });
+window.location.href = 'https://anhtran25.github.io/Assignment_JS/BeautyMona/admin/Product_AD/listproduct.html';
