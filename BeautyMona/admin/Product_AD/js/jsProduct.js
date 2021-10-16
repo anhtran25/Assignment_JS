@@ -18,4 +18,4 @@ form_add.addEventListener('submit', function(e) {
     
 
 });
-window.location.href = 'https://anhtran25.github.io/Assignment_JS/BeautyMona/admin/Product_AD/listproduct.html';
+
