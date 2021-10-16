@@ -5,6 +5,6 @@ form_add.addEventListener('submit', function(e) {
         category__name: document.querySelector('#inp__name__category').value
 
     }
-    axios.post('http://localhost:3000/category', post)
+    axios.post('https://w0vd4.sse.codesandbox.io/category', post)
         .then(response => alert('them thanh cong'))
 });

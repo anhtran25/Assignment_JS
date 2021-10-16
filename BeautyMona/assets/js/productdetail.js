@@ -5,7 +5,7 @@ var url = new URL(url_string);
 var id = url.searchParams.get("id");
 
 function getPost() {
-    axios.get('http://localhost:3000/posts?id=' + id)
+    axios.get('https://w0vd4.sse.codesandbox.io/posts?id=' + id)
         .then(response => {
 
             const result = response.data.map(post => {
@@ -89,7 +89,7 @@ getPost();
 const q = document.querySelector('#des');
 
 function getQ() {
-    axios.get('http://localhost:3000/posts?id=' + id)
+    axios.get('https://w0vd4.sse.codesandbox.io/posts?id=' + id)
         .then(response => {
 
             const result = response.data.map(q => {
@@ -120,7 +120,7 @@ const setCartItems = (cart) => {
 
 function addToCart(id) {
     console.log(id); // 1
-    axios.get("http://localhost:3000/posts/" + id).then((response) => {
+    axios.get("https://w0vd4.sse.codesandbox.io/posts/" + id).then((response) => {
         const newProduct = {
             ...response.data,
             quantity: 1

@@ -1,7 +1,7 @@
 const posts = document.querySelector('#posts');
 
 function getPosts() {
-    axios.get('http://localhost:3000/posts?product__cate=' + 2)
+    axios.get('https://w0vd4.sse.codesandbox.io/posts?product__cate=' + 2)
         .then(response => {
 
             const results = response.data.map(posts => {
@@ -34,7 +34,7 @@ function getPosts() {
 getPosts();
 var sorts = document.querySelector('#sort');
 sorts.addEventListener('change', function() {
-    axios.get('http://localhost:3000/posts?_sort=product__price&product__cate=2&_order=' + sorts.value)
+    axios.get('https://w0vd4.sse.codesandbox.io/posts?_sort=product__price&product__cate=2&_order=' + sorts.value)
         .then(response => {
             const result = response.data.map(posts => {
                 return `

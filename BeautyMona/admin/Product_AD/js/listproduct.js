@@ -5,7 +5,7 @@ const id = urlParams.get('id');
 console.log(id)
 
 function getList() {
-    axios.get('http://localhost:3000/posts')
+    axios.get('https://w0vd4.sse.codesandbox.io/posts')
         .then(response => {
 
             const result = response.data.map(listproduct => {
@@ -35,7 +35,7 @@ function getList() {
                     console.log(id)
                     btn.onclick = function(e) {
                         if (window.confirm('ban co chac chan muon xoa khong')) {
-                            axios.delete(`http://localhost:3000/posts/${id}`)
+                            axios.delete(`https://w0vd4.sse.codesandbox.io/posts/${id}`)
                         }
                     }
                 }

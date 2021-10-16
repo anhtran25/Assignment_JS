@@ -105,7 +105,7 @@ window.onscroll = function() {
 const post = document.querySelector('#post');
 
 function getPost() {
-    axios.get('http://localhost:3000/posts?product__cate=' + 1)
+    axios.get('https://w0vd4.sse.codesandbox.io/posts?product__cate=' + 1)
         .then(response => {
 
             const result = response.data.map(post => {
@@ -140,7 +140,7 @@ getPost();
 
 var sort = document.querySelector('#sort');
 sort.addEventListener('change', function() {
-    axios.get('http://localhost:3000/posts?_sort=product__price&product__cate=1&_order=' + sort.value)
+    axios.get('https://w0vd4.sse.codesandbox.io/posts?_sort=product__price&product__cate=1&_order=' + sort.value)
         .then(response => {
             const result = response.data.map(post => {
                 return `
@@ -182,7 +182,7 @@ formSignin.addEventListener('submit', function(e) {
         password: document.querySelector('#password').value
     }
 
-    axios.post('http://localhost:3000/signup', user)
+    axios.post('https://w0vd4.sse.codesandbox.io/signup', user)
         .then(response => alert('Đăng ký thanh cong'))
     window.location.href = 'http://127.0.0.1:5500/BeautyMona/index.html#my-Login';
 
@@ -198,7 +198,7 @@ formLogin.addEventListener('submit', function(e) {
         password: document.querySelector('#txtpassword').value
     };
     console.log(user);
-    axios.post('http://localhost:3000/signin', user)
+    axios.post('https://w0vd4.sse.codesandbox.io/signin', user)
         .then(respose => {
             localStorage.setItem('user', JSON.stringify(respose.data));
             $('.notify').innerHTML = '<p class="text-success>Đăng nhập thành công</p>';

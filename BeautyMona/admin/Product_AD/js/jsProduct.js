@@ -13,7 +13,7 @@ form_add.addEventListener('submit', function(e) {
         product__descriptions: document.querySelector('#product_descs').value,
         product__cate: document.querySelector('#product_cate').value
     }
-    axios.post('http://localhost:3000/posts', post)
+    axios.post('https://w0vd4.sse.codesandbox.io/posts', post)
         .then(response => alert('them thanh cong'))
 
 });
