@@ -1,0 +1,216 @@
+{
+  "posts": [
+    {
+      "product__avt": "https://nuochoangoisao.com/wp-content/uploads/2019/02/nuoc-hoa-nu-Chanel-Coco-Noir-6.jpg",
+      "product__name": "Nước hoa Pháp",
+      "product__priceold": 350000,
+      "product__cate": 1,
+      "product__price": 150000,
+      "product__sale": "15%",
+      "product__description": "Nước hoa thương hiệu nổi tiếng",
+      "product__descriptions": "Guerlain là hãng nước hoa huyền thoại ở Ý với 175 năm kinh nghiệm cùng niềm đam mê bất tận trong lĩnh vực này, Guerlain trở thành một trong những hãng nước hoa lâu đời nhất và nổi tiếng nhất tại Pháp. Guerlain luôn luôn sử dụng những hương liệu sang trọng và quý hiếm như vani Pháp, hoa ngọc lan tây từ khu rừng được trồng bằng chính tay của Guerlain ở quần đảo Comoro.",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "product__avt": "https://cf.shopee.vn/file/25e35249f05069fdc2f901dd1e1cd7e6",
+      "product__name": "Nước hoa ý",
+      "product__priceold": 350000,
+      "product__cate": 1,
+      "product__price": 200000,
+      "product__sale": "25%",
+      "product__description": "Nước hoa thương hiệu nổi tiếng",
+      "product__descriptions": "Guerlain là hãng nước hoa huyền thoại ở Ý với 175 năm kinh nghiệm cùng niềm đam mê bất tận trong lĩnh vực này, Guerlain trở thành một trong những hãng nước hoa lâu đời nhất và nổi tiếng nhất tại Pháp. Guerlain luôn luôn sử dụng những hương liệu sang trọng và quý hiếm như vani Pháp, hoa ngọc lan tây từ khu rừng được trồng bằng chính tay của Guerlain ở quần đảo Comoro."
+    },
+    {
+      "id": 3,
+      "product__avt": "https://perfume168.com/wp-content/uploads/2018/08/Guerlain-La-Petite-Robe-Noir-Intense-6.jpg",
+      "product__name": "Nước hoa TBN",
+      "product__priceold": 500000,
+      "product__cate": 1,
+      "product__price": 400000,
+      "product__sale": "5%",
+      "product__description": "Nước hoa thương hiệu nổi tiếng",
+      "product__descriptions": "Tiêu biểu của nước hoa Lancome có thể nhắc đến Lancome Miracle. Lấy màu hồng làm màu sắc chính cho sản phẩm, với thiết kế chai đơn giản. Thế nhưng, sánh đôi cùng màu hồng nhẹ nhàng ấy lại là dòng hương tràn đây năng lượng và cá tính. Mang cảm hứng từ cuộc sống, xem cuộc sống như một phép lạ và những điều nhỏ nhất đều mang đến niềm vui và hạnh phúc, Miracle vượt qua giới hạn của chai nước hoa thông thường, trở thành người bạn không thể thiếu cho phái đẹp."
+    },
+    {
+      "id": "21561030",
+      "product__avt": "https://file.hstatic.net/1000025647/file/nuoc-hoa-chanel-chanxe-edp_467dbb3f1d8c4ae29e69b2db4e6d3081_1024x1024.jpg",
+      "product__name": "Nước hoa Pháp Chanel",
+      "product__priceold": 450000,
+      "product__cate": 1,
+      "product__price": 399500,
+      "product__sale": "15%",
+      "product__description": "Nuoc Hoa Chanel Coco Mademoisele Eau De Toilete chuẩn nhất Việt Nam",
+      "product__descriptions": "Sau Nuoc hoa Chanel Coco, Coco Mademoiselle là một phiên bản bổ sung cho nét tính cách đầy tương phản của Gabrielle Chanel. Đó là biểu hiện cho nét nữ tính, một hương thơm sinh động, tươi mát và phức cảm dành cho những phụ nữ thanh lịch và quý phái. Nuoc Hoa Chanel Coco Mademoiselle, một hương thơm phương Đông hiện đại, tươi mát, gợi cảm và trừu tượng, được tạo nên để đánh thức tinh thần độc lập của Coco Chanel."
+    },
+    {
+      "id": "21561032",
+      "product__avt": "https://www.elle.vn/wp-content/uploads/2019/03/29/nuoc-hoa-mua-he-01.jpg",
+      "product__name": "Nước hoa Pháp Chanel",
+      "product__priceold": 450000,
+      "product__cate": 1,
+      "product__price": 9000,
+      "product__sale": "15%",
+      "product__description": "Nuoc Hoa Chanel Coco Mademoisele Eau De Toilete chuẩn nhất Việt Nam",
+      "product__descriptions": "Sau Nuoc hoa Chanel Coco, Coco Mademoiselle là một phiên bản bổ sung cho nét tính cách đầy tương phản của Gabrielle Chanel. Đó là biểu hiện cho nét nữ tính, một hương thơm sinh động, tươi mát và phức cảm dành cho những phụ nữ thanh lịch và quý phái. Nuoc Hoa Chanel Coco Mademoiselle, một hương thơm phương Đông hiện đại, tươi mát, gợi cảm và trừu tượng, được tạo nên để đánh thức tinh thần độc lập của Coco Chanel."
+    },
+    {
+      "id": "21561040",
+      "product__avt": "https://www.elle.vn/wp-content/uploads/2019/01/16/nuoc-hoa-nu-003.png",
+      "product__name": "Nước hoa Pháp Chanel",
+      "product__priceold": 450000,
+      "product__cate": 1,
+      "product__price": 399000,
+      "product__sale": "15%",
+      "product__description": "Nuoc Hoa Chanel Coco Mademoisele Eau De Toilete chuẩn nhất Việt Nam",
+      "product__descriptions": "Sau Nuoc hoa Chanel Coco, Coco Mademoiselle là một phiên bản bổ sung cho nét tính cách đầy tương phản của Gabrielle Chanel. Đó là biểu hiện cho nét nữ tính, một hương thơm sinh động, tươi mát và phức cảm dành cho những phụ nữ thanh lịch và quý phái. Nuoc Hoa Chanel Coco Mademoiselle, một hương thơm phương Đông hiện đại, tươi mát, gợi cảm và trừu tượng, được tạo nên để đánh thức tinh thần độc lập của Coco Chanel."
+    },
+    {
+      "id": "2156",
+      "product__avt": "https://www.hangngoainhap.com.vn/images/201711/goods_img/1948_P_1510296778778.jpg",
+      "product__name": "Nước hoa Ý Versace",
+      "product__priceold": 550000,
+      "product__cate": 1,
+      "product__price": 430000,
+      "product__sale": "16%",
+      "product__description": "Nước hoa Ý Versace chính hãng chuẩn nhất Việt Nam",
+      "product__descriptions": "Nước hoa cao cấp Versace Pour Homme 100ml của Ý có hương thơm nam tính, mạnh mẽ, quyến rũ mê hoặc lòng người, sẽ giúp bạn tự tin, hấp dẫn hơn khi gặp gỡ bạn bè, hay tham gia các buổi tiệc quan trọng..."
+    },
+    {
+      "id": "21562",
+      "product__avt": "https://shareskin.vn/wp-content/uploads/2019/06/Nuoc-hoa-nam-mini-Versace-Eros-EDT-5ml-bevita-1.jpg",
+      "product__name": "Nước hoa Ý Versace Eros",
+      "product__priceold": 500000,
+      "product__cate": 1,
+      "product__price": 400000,
+      "product__sale": "20%",
+      "product__description": "Nước hoa Ý Versace Eros cảm hứng và kết nối sâu sắc thần thoại Hy Lạp",
+      "product__descriptions": "Nước hoa cao cấp Versace Versace Eros 100ml của Ý có hương thơm nam tính, mạnh mẽ, quyến rũ mê hoặc lòng người, sẽ giúp bạn tự tin, hấp dẫn hơn khi gặp gỡ bạn bè, hay tham gia các buổi tiệc quan trọng..."
+    },
+    {
+      "product__avt": "https://cf.shopee.vn/file/9366495f1fbc639cd13e1d3c5c1caf59",
+      "product__name": "Kem dưỡng da ngọc trai",
+      "product__priceold": "1500",
+      "product__price": "2000",
+      "product__description": "Sản phẩm mỹ phẩm thiên nhiên chiết xuất tinh chất lô hội",
+      "product__descriptions": "Sản phẩm mỹ phẩm thiên nhiên chiết xuất tinh chất lô hội",
+      "product__sale": "0",
+      "id": "01680700",
+      "product__cate": 3
+    },
+    {
+      "product__avt": "https://www.japanstore.vn/wp-content/uploads/Kem-d%C6%B0%E1%BB%A1ng-da-Aloins-tinh-ch%E1%BA%A5t-l%C3%B4-h%E1%BB%99i-nha-%C4%91am-Nh%E1%BA%ADt-B%E1%BA%A3n-185g.png",
+      "product__name": "Kem dưỡng da ngọc trai",
+      "product__priceold": "40000",
+      "product__price": "25000",
+      "product__description": "Đậm đặc nhất, có tỉ lệ tinh dầu lô hội",
+      "product__descriptions": "Giúp da trắng sáng, tinh khiết từ bên trong, Duy trì làn da mịn màng, săn chắc, tăng độ đàn hồi,Giảm vết nhăn cho da, giúp khuôn mặt khi trang điểm bắt phấn tốt hơn. Chống oxy hoá sẽ làm cho quá trình lão hoá diễn ra chậm hơn  ",
+      "product__sale": "15%",
+      "id": "25605430",
+      "product__cate": 3
+    },
+    {
+      "product__avt": "https://toplist.vn/images/800px/greelux-556935.jpg",
+      "product__name": "Xịt thơm miệng GreeLux",
+      "product__priceold": "52000",
+      "product__price": "45000",
+      "product__description": "Thương hiệu nước xịt thơm miệng nổi tiếng nhất và tốt nhất hiện nay",
+      "product__descriptions": "Thương hiệu nước xịt thơm miệng nổi tiếng nhất và tốt nhất hiện nay",
+      "product__sale": "10%",
+      "id": "25",
+      "product__cate": "2"
+    },
+    {
+      "id": "12064102",
+      "product__avt": "https://http2.mlstatic.com/D_NQ_NP_759645-MLV40904803555_022020-O.jpg",
+      "product__name": "Nước Hoa Ý Dolce",
+      "product__priceold": "65000",
+      "product__price": "50000",
+      "product__sale": "22%",
+      "product__description": "Một hương thơm cực kỳ quyến rũ và hấp dẫn.",
+      "product__descriptions": "Mở đầu là sự kết hợp mang thiên hướng hoa cỏ và trái cây. Mâm xôi đỏ, lê và lan Nam Phi tạo nên nét bay bổng, nhẹ nhàng. Sau đó hoa violet, hoa hồng ngào ngạt đậm đà, tạo nên sự đằm thắm của người phụ nữ hiện đại. Hương hoa hồng trong nước hoa The Only One 2 còn có một điểm vô cùng khác biệt khi các nhà chế tác đã thêm vào hỗn hợp tinh chất hạt cà phê và hoa violet. Sự kết hợp này tạo chiều sâu và tạo độ chín cho mùi hương, giúp lớp hương ấm hơn, đậm đà hơn.",
+      "product__cate": "1"
+    },
+    {
+      "id": "26442131",
+      "product__avt": "https://linhkienlammusic.com/thumbs/540x540x1/upload/product/nuoc-hoa-nu-karru-5128.jpg",
+      "product__name": "Nước Hoa Karri",
+      "product__priceold": "480000",
+      "product__price": "450000",
+      "product__sale": "6%",
+      "product__description": "Karri là một loại nước hoa mới dành cho phụ nữ, được thiết kế phá vỡ mọi khuôn khổ",
+      "product__descriptions": "Karri Perfume Collection nước hoa nữ đã mang đến những nét hương đầy mạnh mẽ, hiện đại nhưng cũng không kém phần thanh lịch và duyên dáng. Mùi hương này được xem như là biểu tượng cho những người phụ nữ bản lĩnh, quyền lực, có sự nghiệp, đam mê và biết tận hưởng cuộc sống. Mùi hương chủ đạo của Karri là sự ngọt ngào từ mật ong, hương thơm mang lại sự nữ tính, quyến rũ, gợi cảm và dễ làm người ta say đắm. Ngoài ra thì sự thơm mát từ cam chanh cùng hương hoa cũng mang lại cảm giác dễ chịu và thoải mái. Karri là dòng nước hoa chắc chắn sẽ mang lại một mùi hương đẹp - độc - lạ xứng đáng có trong bộ sưu tập của các quý cô.",
+      "product__cate": "1"
+    },
+    {
+      "id": "43047853",
+      "product__avt": "https://perfume168.com/wp-content/uploads/2018/08/Lancome-Tresor-Rose-Midnight.jpg",
+      "product__name": "Lancome Tresor Rose Midnight",
+      "product__priceold": "120000",
+      "product__price": "115000",
+      "product__sale": "5%",
+      "product__description": "Lancome Tresor Midnight Rose là dòng sản phẩm thích hợp cho đối tượng nữ từ 25 tuổi",
+      "product__descriptions": "Hương thơm trên cơ thể chính là điểm mạnh để gây ấn tượng, gây sự in hằn sâu, luôn khiến người ta lưu luyến nhớ mãi không quên. Để lựa chọn một sản phẩm thích hợp thì bạn cần nắm rõ tính chất, thành phần của loại nước hoa.",
+      "product__cate": "1"
+    },
+    {
+      "id": "01264174",
+      "product__avt": "https://vn-live-05.slatic.net/p/86d09dff6119c8a3529a332c9f1fd353.jpg_720x720q80.jpg_.webp",
+      "product__name": "Nước Hoa Yanto",
+      "product__priceold": "80000",
+      "product__price": "65000",
+      "product__sale": "18%",
+      "product__description": "Lưu Hương Lâu - Mùi Thơm Quyến Rũ Cá Tính",
+      "product__descriptions": "NƯỚC HOA NỮ CẶP CHÂN SGANOAL 30ml - được thiết kế để phá vỡ tất cả hình ảnh quen thuộc của thương hiệu Jean Paul Gaultier, tạo nên một cái gì đó mới và hiện đại, đồng thời mạnh mẽ và thanh lịch. Những điểm nhấn quan trọng của thành phần nước hoa này là cam, mật ong, cây hoắc hương và hoa phong lan.",
+      "product__cate": "1"
+    }
+  ],
+  "category": [
+    {
+      "category__name": "Nước Hoa",
+      "id": 1
+    },
+    {
+      "category__name": "Dưỡng da",
+      "id": 2
+    },
+    {
+      "category__name": "Chăm sóc miệng",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "coi@gmail.com",
+      "password": "$2a$10$Zr7F2pj8/LZoYSOU8b03e.Xwrfu7Tw3kvOzbSsV4GVFwNk8ygpAG2",
+      "account": "Anh trần",
+      "id": 1
+    },
+    {
+      "email": "anhttph13025@fpt.edu.vn",
+      "password": "$2a$10$Ghpu92g7G8sKRmsi/gfh1.CGdEiADpuV8phitGmeGjXNi/A99db8S",
+      "account": "anht",
+      "id": 2
+    },
+    {
+      "email": "anh123@gmail.com",
+      "password": "$2a$10$DY6Fa.jO/CqMo7fJmFFWwuW1ZJgIT9C/Vx/QGJy1hYPDPWowzNsTW",
+      "account": "ANh trong",
+      "id": 3
+    },
+    {
+      "email": "dinh@gmail.com",
+      "password": "$2a$10$Oj/OZw.ICp1xpAa8aesE3.iYjHUw5rYSTx.qdlXiWEC7/zkjgSlle",
+      "account": "Tran Tien Dinh",
+      "id": 4
+    },
+    {
+      "email": "anhcoi@gmail.com",
+      "password": "$2a$10$0C/ZWtLs4ZOPZyAYbTG2p.fpepdIU820lIyR0HmAnHVlXjRcep32K",
+      "account": "coiceh",
+      "id": 5
+    }
+  ],
+  "cart": []
+}

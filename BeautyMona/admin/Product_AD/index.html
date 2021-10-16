@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quản Lý Sản Phẩm</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="keywords" content="bootstrap, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive" />
+    <meta name="author" content="Codedthemes" />
+    <!-- Favicon icon -->
+    <link rel="icon" href="../../images/logoToc.jfif" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap/css/bootstrap.min.css">
+    <!-- waves.css -->
+    <link rel="stylesheet" href="../assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+    <!-- themify-icons line icon -->
+    <link rel="stylesheet" type="text/css" href="../assets/icon/themify-icons/themify-icons.css">
+    <!-- ico font -->
+    <link rel="stylesheet" type="text/css" href="../assets/icon/icofont/css/icofont.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="../assets/icon/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="./style_product.css">
+</head>
+
+<body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="loader-track">
+            <div class="preloader-wrapper">
+                <div class="spinner-layer spinner-blue">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="spinner-layer spinner-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+
+                <div class="spinner-layer spinner-yellow">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+
+                <div class="spinner-layer spinner-green">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+                    <div class="navbar-logo">
+                        <a class="mobile-menu waves-effect waves-light" id="mobile-collapse" href="#!">
+                            <i class="ti-menu"></i>
+                        </a>
+                        <div class="mobile-search waves-effect waves-light">
+                            <div class="header-search">
+                                <div class="main-search morphsearch-search">
+                                    <div class="input-group">
+                                        <span class="input-group-prepend search-close"><i class="ti-close input-group-text"></i></span>
+                                        <input type="text" class="form-control" placeholder="Enter Keyword">
+                                        <span class="input-group-append search-btn"><i class="ti-search input-group-text"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="mobile-options waves-effect waves-light">
+                            <i class="ti-more"></i>
+                        </a>
+                    </div>
+                    <div class="navbar-container container-fluid">
+                        <ul class="nav-left">
+                            <li>
+                                <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
+                            </li>
+                            <li>
+                                <a href="#!" onclick="javascript:toggleFullScreen()" class="waves-effect waves-light">
+                                    <i class="ti-fullscreen"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="user-profile header-notification">
+                                <a href="#!" class="waves-effect waves-light">
+
+                                    <i class="ti-angle-down"></i>
+                                </a>
+                                <ul class="show-notification profile-notification">
+                                    <li class="waves-effect waves-light">
+                                        <a href="../../Login/logout.php">
+                                            <i class="ti-layout-sidebar-left"></i> Đăng Xuất
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    <nav class="pcoded-navbar">
+                        <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+                        <div class="pcoded-inner-navbar main-menu">
+                            <div class="">
+                                <div class="main-menu-header">
+
+                                </div>
+                                <div class="main-menu-content">
+                                    <ul>
+                                        <li class="more-details">
+                                            <a href="../../Login/logout.php"><i class="ti-layout-sidebar-left"></i>Đăng Xuất</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="pcoded-navigation-label">Chức Năng</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="./admin/index.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                                        <span class="pcoded-mtext">Tổng Quát</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">V1</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="pcoded-hasmenu active pcoded-trigger">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i><b>BC</b></span>
+                                        <span class="pcoded-mtext">Quản Lý Hệ Thống</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class="active">
+                                            <a href="./index.html" class="waves-effect waves-dark">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext">Quản Lý Sản Phẩm</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                            <a href="./category.html" class="waves-effect waves-dark">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext">Quản Lý Danh mục loại</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </nav>
+                    <div class="pcoded-content">
+                        <!-- Page-header start -->
+                        <div class="page-header">
+                            <div class="page-block">
+                                <div class="row align-items-center">
+                                    <div class="col-md-8">
+                                        <div class="page-header-title">
+                                            <h5 class="m-b-10">Quản Lý Sản Phẩm</h5>
+                                            <p class="m-b-0">Quản lý các sản phẩm của bạn !</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Page-header end -->
+                        <div class="pcoded-inner-content">
+                            <!-- Main-body start -->
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                    <div class="inp__product">
+                                        <h1 class="title_product_list">Danh Sách Sản Phẩm</h1>
+                                        <form id="form__input__product" action="#" method="post" enctype="multipart/form-data">
+                                            <h1 class="title_product_add">Thêm Sản Phẩm Mới</h1>
+                                            <div class="inp__product__content">
+                                                <!-- <div class="form__group code__product">
+                                                    <label for="">Mã Sản Phẩm</label>
+                                                    <input type="text" id="inp__code__product" name="idProduct" value="auto code" />
+                                                </div> -->
+
+                                                <!-- end view__product -->
+                                                <div class="form__group name__product">
+                                                    <label for="">Tên Sản Phẩm</label>
+                                                    <input type="text" id="inp__name__product" name="inpNameProduct" class="valInp" required/>
+                                                </div>
+                                                <!-- end name__product -->
+                                                <div class="form__group price__product">
+                                                    <label for="">Đơn Giá Cũ</label>
+                                                    <input type="number" id="inp__priceold__product" name="inpPriceProduct" class="valInp" />
+                                                </div>
+                                                <div class="form__group price__product">
+                                                    <label for="">Đơn Giá Mới</label>
+                                                    <input type="number" id="inp__price__product" name="inpPriceProduct" class="valInp" required/>
+                                                </div>
+                                                <!-- end price__product -->
+                                                <div class="form__group discount__product">
+                                                    <label for="">Giảm Giá</label>
+                                                    <input type="text" id="inp__discount__product" name="inpDiscount" class="valInp" required/>
+                                                </div>
+                                                <!-- end discount__product -->
+                                                <div class="form__group img__product">
+                                                    <label for="">Hình Ảnh</label>
+                                                    <input type="text" name="upFile" id="inp__img" class="valInp" accept=".jpg, .jpeg, .png, .jfif" required/>
+                                                </div>
+                                                <!-- end img__product -->
+
+                                                <div class="form__group dateAdd__product">
+                                                    <label for="">Thông Tin Sản Phẩm</label>
+                                                    <input type="text" id="product_desc" placeholder="Nhập Thông Tin Sản Phẩm"></input>
+                                                </div>
+                                                <div class="form__group dateAdd__product">
+                                                    <label for="">Mô tả Sản Phẩm</label>
+                                                    <input type="text" id="product_descs" placeholder="Mô tả"></input>
+                                                </div>
+                                                <!-- end dateAdd__product -->
+                                                <div class="form__group dateAdd__product">
+                                                    <label for="">Danh Mục</label>
+                                                    <Select id="product_cate">
+                                                        <option value="1">Nước Hoa</option>
+                                                        <option value="2">Chăm Sóc Miệng</option>
+                                                        <option value="3">Dưỡng Da</option>
+                                                    </Select>
+                                                </div>
+                                            </div>
+                                            <div class="bnt_product">
+                                                <button type="submit">Thêm mới</button>
+
+                                                <button>
+                                                    <a href="./listproduct.html">Danh sách</a>
+                                                </button>
+                                            </div>
+                                            <!-- end bnt_product -->
+                                        </form>
+
+
+
+                                    </div>
+                                    <!-- end input__product -->
+
+
+                                </div>
+                            </div>
+                            <!-- Main-body start -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Warning Section Ends -->
+    <!-- Required Jquery -->
+    <script type="text/javascript" src="../assets/js/jquery/jquery.min.js "></script>
+    <script type="text/javascript" src="../assets/js/jquery-ui/jquery-ui.min.js "></script>
+    <script type="text/javascript" src="../assets/js/popper.js/popper.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap/js/bootstrap.min.js "></script>
+    <!-- waves js -->
+    <script src="../assets/pages/waves/js/waves.min.js"></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="../assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <!-- Custom js -->
+    <script src="../assets/js/pcoded.min.js"></script>
+    <script src="../assets/js/vertical/vertical-layout.min.js"></script>
+    <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+    <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        bkLib.onDomLoaded(nicEditors.allTextAreas);
+    </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/jsProduct.js"></script>
+
+</body>
+
+</html>
